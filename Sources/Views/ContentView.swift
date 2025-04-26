@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SwiftData
-// Test Xcode push
+// Second test for Xcode commit
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @StateObject private var authViewModel = AuthViewModel()
