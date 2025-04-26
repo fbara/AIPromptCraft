@@ -1,0 +1,16 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Sensitive files
+*.secret
