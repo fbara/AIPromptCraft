@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SwiftData
-// Test PAT authentication
+// Test Xcode push
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @StateObject private var authViewModel = AuthViewModel()
