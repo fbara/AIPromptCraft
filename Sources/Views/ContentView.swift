@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SwiftData
-// Second test for Xcode commiti
+
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @StateObject private var authViewModel = AuthViewModel()
@@ -55,4 +55,8 @@ struct ContentView: View {
     return ContentView()
         .environment(\.modelContext, container.mainContext)
         .environmentObject(authViewModel)
+}
+
+#Preview("Minimal") {
+    ContentView()
 }
